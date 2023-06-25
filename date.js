@@ -19,7 +19,7 @@ function myDateFunc(dateNew) {
   let month = monthNames[d.getMonth()];
   let year = d.getFullYear();
   let dayName = daysNames[d.getDay()];
-  console.log(dayName + " " + day + " " + month + " " + year);
+  console.log(dayName + " " + day + " " + month + " " + year);  // output: Sat 25 Nov 2023
 }
 
 myDateFunc("2023-11-25");
