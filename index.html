@@ -1,0 +1,10 @@
+<script>
+    const newNav = window.navigator;
+    const title = newNav.geolocation.getCurrentPosition(sc => {
+        console.log(sc);
+    }, err=> {
+        console.log(err);
+    });
+    console.log(title);
+    document.write(title)
+</script>
