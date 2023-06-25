@@ -1,5 +1,5 @@
 const arrowFunc = (num) => {
-    if (num % 2 !== 0) return true;
+    if (num % 2 !== 0) return true; // output: true;
     else return false;
 }
 
